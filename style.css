@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+/* Main container */
+.nav-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+/* Logo */
+.logo {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #e50914;
+}
+
+/* Login Button */
+.nav-section {
+  padding: 8px 16px;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-section:hover {
+  background-color: #f6121d;
+}
+
+/* --------hero section--------- */
+.hero-parent{
+    position: relative;
+}
+.hero-child{
+    position: absolute;
+    width: ;
+    bottom: 50px;
+    left: 150px;
+    padding: 20px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/* ---------section 1------- */
+.telugu-section h2{
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.telugu{
+    display: flex;
+}
+.telugu img{
+    padding-right: 20px;
+}
+/* suspense */
+.suspense-section h2{
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.suspense{
+    display: flex;
+}
+.suspense img{
+    padding-right: 20px;
+}
+/* horror section */
+.horror-section h2{
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.horror{
+    display: flex;
+}
+.horror img{
+    padding-right: 20px;
+}
+/* footer */
+.footer-section{
+    padding: 50px;
+    display: flex;
+}
+.footer{
+    color: white;
+}
+.footer-para{
+    padding-top: 20px;
+}
+.footer2{
+    color: white;
+    padding: 50px;
+    padding-left: 200px;
+}
+.footer1{
+    padding: 20px;
+}
+.footer3{
+    color: white;
+    padding: 50px;
+    padding-left: 200px;
+}
