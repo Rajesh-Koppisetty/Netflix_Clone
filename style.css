@@ -142,7 +142,16 @@ body {
     color: white;
     padding: 50px;
     padding-left: 200px;
+    
 }
+.footer2sub{
+    display: flex;
+    
+}
+.footer2sub1{
+    padding-right: 20px;
+}
+
 .footer1{
     padding: 20px;
 }
